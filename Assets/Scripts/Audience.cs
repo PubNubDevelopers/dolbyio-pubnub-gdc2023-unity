@@ -25,8 +25,8 @@ namespace Dolby.Millicast
         private List<Vector3> tvPositions = new List<Vector3>();
 
         // Dolby.io Credentials
-        public string accountId = "GCNQRh";
-        public string publishToken = "94fc0911e31f0ef28412a7891e2465cb4b01dd776f733192951bf43844114523";
+        public string accountId = "ACCOUNT_ID";
+        public string publishToken = "PUBLISH_TOKEN";
         public string publish_url = "https://director.millicast.com/api/director/publish";
 
         //List of streamNames
