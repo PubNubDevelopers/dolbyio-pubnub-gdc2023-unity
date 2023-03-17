@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme-MICH-L
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 9b54e3331e375234ba2c5ca77a077094, type: 3}
+  title: Cinematic Studio Sample
+  sections:
+  - heading: About the Cinematic Studio Sample
+    text: The Cinematic Studio Sample groups together a set of features that makes
+      moviemaking a first-class experience within the Unity Editor, along with sample
+      content to demonstrate their use.
+    linkText: 
+    url: 
+  - heading: Documentation
+    text: 'For more information about the sample, visit its dedicated page on the
+      Unity Forum:'
+    linkText: Cinematic Studio Sample details and documentation
+    url: https://forum.unity.com/threads/1100941/
+  - heading: Tutorials
+    text: 'The Unity Learn platform includes a series of tutorials to help you
+      familiarize yourself with the sample and its features:'
+    linkText: Cinematic Content Creation with Sequences
+    url: https://learn.unity.com/project/cinematic-content-creation-with-sequences
+  - heading: Feedback
+    text: "Don\u2019t hesitate to provide your feedback on the Unity Forum
+      to actively help us improve Cinematic Studio Sample:"
+    linkText: Film, TV, Animation & Cinematics
+    url: https://forum.unity.com/forums/466/
+  - heading: Included features
+    text: 'The Cinematic Studio Sample project groups together the following features:'
+    linkText: 
+    url: 
+  - heading: 
+    text: "\u2022 Sequences: Efficiently create movies, game cinematics or any other
+      linear content. Organize your project's editorial structure and your creative
+      content, assemble the elements for easy authoring and collaboration, and try
+      out new ideas in a non-destructive way."
+    linkText: Documentation
+    url: https://docs.unity3d.com/Packages/com.unity.sequences@1.0/
+  - heading: 
+    text: "\u2022 Alembic for Unity: Import and export Alembic files, play back and
+      record animations in the Alembic format directly in Unity."
+    linkText: Documentation
+    url: https://docs.unity3d.com/Packages/com.unity.formats.alembic@2.2/
+  - heading: 
+    text: "\u2022 Cinemachine: A suite of modules for operating the Unity camera
+      to get sophisticated behaviors: tracking targets, composing, blending, and
+      cutting between shots."
+    linkText: Documentation
+    url: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.8/
+  - heading: 
+    text: "\u2022 FBX Exporter: Import and export geometry, Lights, Cameras, and
+      animation between Unity and other 3D modeling software through FBX files."
+    linkText: Documentation
+    url: https://docs.unity3d.com/Packages/com.unity.formats.fbx@4.1/
+  - heading: 
+    text: "\u2022 High Definition RP: A high-fidelity Scriptable Render Pipeline
+      built by Unity to target modern (Compute Shader compatible) platforms."
+    linkText: Documentation
+    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@10.5/
+  - heading: 
+    text: "\u2022 Timeline: Create, manage and record cinematic content, game-play
+      sequences, audio sequences, and complex particle effects."
+    linkText: Documentation
+    url: https://docs.unity3d.com/Packages/com.unity.timeline@1.5/
+  - heading: 
+    text: "\u2022 Unity Recorder: Capture and save data during Play mode: animation
+      clips, movies, image sequences, audio, and AOVs. Also record Alembic clips
+      and FBX files."
+    linkText: Documentation
+    url: https://docs.unity3d.com/Packages/com.unity.recorder@3.0/
+  loadedLayout: 1
+  scenes:
+  - m_Handle: 0
