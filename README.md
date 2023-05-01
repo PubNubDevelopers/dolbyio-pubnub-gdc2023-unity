@@ -40,10 +40,7 @@ Install [Unity](https://store.unity.com/download-nuo) if you do not have it. The
 4. Under Assets > Resources > Credewntials (Mc Crednetials), replace your Account Id and Publish_token with the Dolby.io information you saved above.
 5. If you would like to have your webcam stream your video in the bottom left corner of the screen, or stream your in-game experience to users in the web, make note of the MainCamera and Creator's POVs' Stream Names in the Hierarchy.
 6. Open your [Dolby.io Dashboard](https://dolby.io/signup) in a browser. Click the Broadcast button to open a new tab that is showing your video.
-7. Replace the parameter in the URL for the stream name with the Creator's POV Stream Name (default is ```webCamUser```). Refresh the page to ensure it is showing the correct stream name. With the stream name as ```webCamUser```, the parameter will be replaced in the URL as so:
-<p align="middle">
-  <img src="/Media/streamname.png"/>
-</p>
+7. Replace the parameter in the URL for the stream name with the Creator's POV Stream Name (default is ```webCamUser```). Refresh the page to ensure it is showing the correct stream name. With the stream name as ```webCamUser```, the parameter will now be ```&s=webCamUser```.
 8. Run the Game in the Editor.
 9. Move with WASD, left + shift to sprint, space bar to jump. Send emojis by clicking on emoji wheel and select the emoji to display in the world.
 10. Follow the [instructions for mobile experience](https://github.com/PubNubDevelopers/pubnub-dolby-gdc2023-mobile-experience/blob/main/README.md) to have other users join/leave experience to spawn/destroy television objects in game world. View the presence indicator when new users join/leave to see updates in real time.
