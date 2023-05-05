@@ -51,7 +51,7 @@ Install [Unity](https://store.unity.com/download-nuo) if you do not have it. The
   <img src="/Media/architecture.png"/>
 </p>
 
-There is a server that provides the mobile experience the Dolby.io publish token and account id necessary to connect to Dolby.io’s network. The server also provides the mobile user the PubNub Publish/Subscribe keys necessary to connect to the PubNub Network via an object.
+There is a server that provides the mobile experience the Dolby.io publish token and account id necessary to connect to Dolby.io’s network. The server also provides the mobile user the PubNub Pub/Sub keys necessary to connect to the PubNub Network via an object.
 Once this object is created, users connect to the PubNub network using a subscribe call and by providing a channel, which is the mechanism through which the data is transmitted from one device to another.
 
 When the Unity game starts, it creates a PubNub object and connects to the network via a subscribe call that is listening to the same channel name as the mobile experience (using a wildcard subscribe), which allows the Unity experience to listen for hierarchical list of channel names. Event listeners allow users to then catch any new mobile connections, since subscribe events, with a setting enabled, generates what are called Presence events.
